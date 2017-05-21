@@ -1,0 +1,116 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+#menu {
+    width: 100%;
+    background-color: #222;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+#menu ul {
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#menu ul li {
+    float: left;
+    margin-left: 50px;
+}
+
+li a {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+#header {
+    position:relative;
+    }
+
+#main-header-text {
+    position: absolute;
+    text-transform: uppercase;
+    color: deeppink;
+    font-size: 40 px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+#header {
+    text-align: center;
+}
+
+
+section {
+    text-align: center;
+}
+
+#content
+{
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    
+}
+
+#contact-header
+{
+    padding: 30px;
+    
+}
+
+#contact-content {
+    text-decoration:none
+    
+}
+
+
+
+/*
+
+ul {
+    margin: 0px;
+    width: 100%;
+    list-style-type: none;
+    background-color: darkslategrey;
+
+}
+
+ul > li {
+    padding: 0px 30px;
+
+    
+}
+
+li a {
+    display: block;
+float: left;
+text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+#header {
+    position:relative;
+    }
+
+#main-header-text {
+    position: absolute;
+    margin-top: 100 px;
+    text-transform: uppercase;
+    color: deeppink;
+    font-size: 40 px;
+    
+}
+
+*/
