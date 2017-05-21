@@ -6,18 +6,17 @@ body {
 #menu {
     width: 100%;
     background-color: #222;
-    padding: 30px 0px;
+    padding: 20px 0px;
     text-align: center;
 }
 
 #menu ul {
-    margin: 0;
     list-style-type: none;
     overflow: hidden;
 }
 
 #menu ul li {
-    float: left;
+    display: inline-block;
     margin-left: 50px;
 }
 
@@ -29,48 +28,43 @@ li a {
     font-size: 20px;
 }
 
-
 #header {
-    position:relative;
-    }
+    position: relative;
+    text-align: center;
+}
 
 #main-header-text {
     position: absolute;
     text-transform: uppercase;
-    color: deeppink;
-    font-size: 40 px;
-    margin-left: auto;
-    margin-right: auto;
+    color: white;
+    font-size: 55px;
+    left: 0;
+    right: 0;
+    ;
+    top: 50%;
 }
-    
+
 #header {
     text-align: center;
 }
-
 
 section {
     text-align: center;
 }
 
-#content
-{
+#content {
     text-align: center;
     background-color: #222;
     color: #fff;
-    
 }
 
-#contact-header
-{
+#contact-header {
     padding: 30px;
-    
 }
 
 #contact-content {
-    text-decoration:none
-    
+    text-decoration: none
 }
-
 
 
 /*
